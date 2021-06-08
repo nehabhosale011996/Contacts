@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.View", "Mediaocean.Hackathon.View\Contacts.View.csproj", "{C4873573-283C-475C-99F8-A56329C931EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Service", "Mediaocean.Hackathon.Service\Contacts.Service.csproj", "{635422B9-79F4-4455-8552-44229B38EF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediaocean.Hackathons.Tests", "Mediaocean.Hackathon.Tests\Mediaocean.Hackathons.Tests.csproj", "{662F89AA-E212-4F76-A82D-746EFBBCCC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Repository", "Mediaocean.Hackathon.Repository\Contacts.Repository.csproj", "{B0E2E334-0E16-48AD-A15E-A32494DAAB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Model", "Mediaocean.Hackathon.Model\Contacts.Model.csproj", "{9008A3FB-9080-48A6-88DD-D7A72A7B3D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Client", "Mediaocean.Hackathon.Client\Contacts.Client.csproj", "{ACC43CEF-A2E3-4BE2-8354-8FA55C5CF587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4873573-283C-475C-99F8-A56329C931EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4873573-283C-475C-99F8-A56329C931EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4873573-283C-475C-99F8-A56329C931EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4873573-283C-475C-99F8-A56329C931EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635422B9-79F4-4455-8552-44229B38EF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635422B9-79F4-4455-8552-44229B38EF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635422B9-79F4-4455-8552-44229B38EF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635422B9-79F4-4455-8552-44229B38EF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662F89AA-E212-4F76-A82D-746EFBBCCC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662F89AA-E212-4F76-A82D-746EFBBCCC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662F89AA-E212-4F76-A82D-746EFBBCCC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662F89AA-E212-4F76-A82D-746EFBBCCC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E2E334-0E16-48AD-A15E-A32494DAAB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E2E334-0E16-48AD-A15E-A32494DAAB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E2E334-0E16-48AD-A15E-A32494DAAB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E2E334-0E16-48AD-A15E-A32494DAAB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9008A3FB-9080-48A6-88DD-D7A72A7B3D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9008A3FB-9080-48A6-88DD-D7A72A7B3D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9008A3FB-9080-48A6-88DD-D7A72A7B3D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9008A3FB-9080-48A6-88DD-D7A72A7B3D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC43CEF-A2E3-4BE2-8354-8FA55C5CF587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC43CEF-A2E3-4BE2-8354-8FA55C5CF587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC43CEF-A2E3-4BE2-8354-8FA55C5CF587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC43CEF-A2E3-4BE2-8354-8FA55C5CF587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60321429-4282-4319-AB66-D073B5D9391F}
+	EndGlobalSection
+EndGlobal

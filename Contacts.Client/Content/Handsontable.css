@@ -1,0 +1,9 @@
+﻿.ht_master tr:nth-of-type(even) > td {
+    background-color: hsl(0, 0%, 96%);
+}
+
+
+.handsontable .currentRow {
+    background-color: yellow !important;
+}
+

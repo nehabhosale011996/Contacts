@@ -1,0 +1,14 @@
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Mediaocean.Hackathon.Model.dll.config
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Mediaocean.Hackathon.Model.dll
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Mediaocean.Hackathon.Model.pdb
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Autofac.dll
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\EntityFramework.dll
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Autofac.pdb
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\Autofac.xml
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\EntityFramework.xml
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\obj\Debug\Contacts.Model.csproj.CoreCompileInputs.cache
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\obj\Debug\Contacts.Model.csproj.CopyComplete
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\obj\Debug\Mediaocean.Hackathon.Model.dll
+C:\Ignitia\hackathon\2019_platform_.net_bootcamp_pune\Saurabh\Mediaocean.Hackathon.Model\obj\Debug\Mediaocean.Hackathon.Model.pdb

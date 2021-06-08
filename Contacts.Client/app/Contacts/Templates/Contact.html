@@ -1,0 +1,235 @@
+﻿<div class="panel panel-primary" type = "text/ng-template"  ng-controller="contactCtrl">
+    <div class="panel-heading" style="font-size:large">
+        Contacts
+    </div>
+     
+
+    <div class="panel-body">
+
+        <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal" ng-click="reset(AddForm)">
+            <span class="fa fa-plus" aria-hidden="true"></span> ADD
+        </button>
+
+      
+        <div class="modal" id="myModal" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                 
+                    <div class="modal-header">
+                        <h4 class="modal-title">ContactDetails</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    
+                    <div class="modal-body">
+                        <form name="AddForm" novalidate>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">First name</label>
+
+                                <div class="col-md-8">
+                                    <input class="form-control"
+                                           required="required"
+                                           id="firstName"
+                                           name="firstName"
+                                           type="text"
+                                           placeholder="First name(required)"
+                                           ng-model="contact.firstName" />
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">Last Name</label>
+
+                                <div class="col-md-8">
+                                    <textarea class="form-control"
+                                              required="required"
+                                              id="lastName"
+                                              name="lastName"
+                                              type="text"
+                                              placeholder="Last name(required)"
+                                              ng-model="contact.lastName" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"
+                                       for="inputProductName">Email</label>
+
+                                <div class="col-md-8">
+                                    <input type="email" name="input" ng-model="text" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"
+                                       for="inputProductName">Phone number</label>
+
+                                <div class="col-md-8">
+                                    <input type="number"
+                                           class="form-control"
+                                           ng-minlength="10"
+                                           ng-maxlength="10"
+                                           id="phoneNumber"
+                                           name="phoneNumber"
+                                           placeholder="Phone"
+                                           ng-model="contact.phoneNumber"
+                                           ng-required="true">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">Status</label>
+
+                                <div class="col-md-8">
+                                    <select ng-model="contact.status" type="text" required>
+                                        <option value="Active">Active</option>
+                                        <option value="Inactive">Inactive</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <span>
+                                        <button type="button" class="btn btn-primary"
+                                                style="width:80px;margin-right:10px"
+                                                ng-click="addContact();"
+                                                data-dismiss="modal"
+                                                ng-disabled="AddForm.$invalid">
+                                            Save
+                                        </button>
+                                    </span>
+                                    <span>
+                                        <button type="button" class="btn btn-primary"
+                                                style="width:70px"
+                                                data-dismiss="modal"
+                                                ng-click="reset()">
+                                            Cancel
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>                
+                </div>
+            </div>
+        </div>
+     
+        <div class="modal" id="editContact" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                  
+                    <div class="modal-header">
+                        <h4 class="modal-title">ContactDetails</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                
+                    <div class="modal-body">
+                        <form name="editForm">
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">First name</label>
+
+                                <div class="col-md-8">
+                                    <input class="form-control"
+                                           required="required"
+                                           id="firstName"
+                                           name="firstName"
+                                           type="text"
+                                           placeholder="First name(required)"
+                                           ng-model="contact.firstName" />
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">Last Name</label>
+
+                                <div class="col-md-8">
+                                    <textarea class="form-control"
+                                              required="required"
+                                              id="lastName"
+                                              name="lastName"
+                                              type="text"
+                                              placeholder="Last name(required)"
+                                              ng-model="contact.lastName" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"
+                                       for="inputProductName">Email</label>
+
+                                <div class="col-md-8">
+                                    <input type="email" name="input" ng-model="text" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"
+                                       for="inputProductName">Phone number</label>
+
+                                <div class="col-md-8">
+                                    <input type="number"
+                                           class="form-control"
+                                           ng-minlength="10"
+                                           ng-maxlength="10"
+                                           id="phoneNumber"
+                                           name="phoneNumber"
+                                           placeholder="Phone"
+                                           ng-model="contact.phoneNumber"
+                                           ng-required="true">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label required"
+                                       for="inputProductName">Status</label>
+
+                                <div class="col-md-8">
+                                    <select ng-model="contact.status" type="text" required>
+                                        <option value="Active">Active</option>
+                                        <option value="Inactive">Inactive</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <span>
+                                        <button type="button" class="btn btn-primary"
+                                                style="width:80px;margin-right:10px"
+                                                data-dismiss="modal"
+                                                ng-click="edit();"
+                                                ng-disabled="editForm.$invalid">
+                                            Edit
+                                        </button>
+                                    </span>
+                                    <span>
+                                        <button type="button" class="btn btn-primary"
+                                                style="width:70px"
+                                                ng-click="" data-dismiss="modal">
+                                            Cancel
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div id="example1">
+        </div>
+    </div>
+    </div>
